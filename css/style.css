@@ -1,0 +1,70 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --colorOne: #010928;
+    --colorTwo: #A90202;
+}
+
+.cnt-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/bannerOne.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.titleH1 {
+    line-height: 1.1;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.conteo{
+    margin: 50px 0;
+}
+.titleDate{
+    margin: 20px 0;
+}
+
+.cntH2conteo {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#cuenta-regresiva,
+.cntH2conteo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiempo {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.tiempo p {
+    font-size: 2em;
+    margin: 0;
+    padding: 5px;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+.etiqueta {
+    font-family: "Source Sans 3", sans-serif;
+    display: block;
+    margin-top: 5px;
+    font-size: 0.75em;
+    color: #666;
+}
