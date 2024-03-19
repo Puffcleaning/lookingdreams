@@ -11,6 +11,12 @@
     --colorTwo: #A90202;
 }
 
+.swal2-popup {
+    color: white;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
 .cnt-general {
     display: flex;
     justify-content: center;
@@ -267,7 +273,8 @@ form {
 
 .invalid-feedback,
 .valid-feedback,
-.btn-primary {
+.btn-primary, 
+.form-control {
     font-family: "Source Sans 3", sans-serif;
 }
 
@@ -326,44 +333,54 @@ form {
     .textInfo {
         font-size: 23px;
     }
-    .sectionGeneralPerfil{
+
+    .sectionGeneralPerfil {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 40px;
 
     }
-    .cnt-general-perfil{
+
+    .cnt-general-perfil {
         width: 400px;
     }
+
     .cnt-map {
         width: 80%;
         margin: auto;
     }
-    .titleH2Ubicacion{
+
+    .titleH2Ubicacion {
         font-size: 50px;
     }
+
     .nameUbica {
         padding: 0px 267px;
         font-size: 30px;
     }
-    .cnt-ubicacion{
+
+    .cnt-ubicacion {
         margin-bottom: 30px;
     }
+
     .titleForm {
         font-size: 50px;
     }
-    .textTitleForm{
+
+    .textTitleForm {
         font-size: 25px;
     }
+
     form {
         font-size: 21px;
         padding: 50px 40px 30px;
     }
 
 }
-@media screen and (min-width: 1440px){
-    .bodyGeneral{
+
+@media screen and (min-width: 1440px) {
+    .bodyGeneral {
         display: flex;
         justify-content: center;
         align-items: center;
