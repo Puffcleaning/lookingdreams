@@ -273,7 +273,7 @@ form {
 
 .invalid-feedback,
 .valid-feedback,
-.btn-primary, 
+.btn-primary,
 .form-control {
     font-family: "Source Sans 3", sans-serif;
 }
@@ -302,6 +302,10 @@ form {
 
     .caja {
         height: 230px;
+    }
+
+    .cnt-general {
+        height: 100vh;
     }
 
 }
@@ -376,6 +380,28 @@ form {
         font-size: 21px;
         padding: 50px 40px 30px;
     }
+    .cnt-general {
+        height: 70vh;
+    }
+
+    .titleH1 {
+        padding: 0px 19%;
+    }
+
+  
+
+    .titleInfo,
+    .titlePerfil {
+        padding: 0 24%;
+    }
+
+    .textInfo {
+        padding: 30px 24%;
+    }
+
+    .cnt-cajas {
+        margin: 40px 0 50px;
+    }
 
 }
 
@@ -387,4 +413,9 @@ form {
         margin: auto;
         max-width: 1440px;
     }
+    .titleH1 {
+        padding: 0px 22%;
+    }
+
+
 }
