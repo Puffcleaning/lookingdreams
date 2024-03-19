@@ -29,6 +29,7 @@
     font-size: 50px;
     text-align: center;
     color: white;
+    text-shadow: -2px -2px black;
 }
 
 .conteo {
@@ -36,6 +37,7 @@
 }
 
 .titleDate {
+    font-size: 35px;
     margin: 20px 0;
 }
 
@@ -72,7 +74,9 @@
 }
 
 .titleInfo,
-.titleCaja {
+.titleCaja,
+.titlePerfil,
+.titleH2Ubicacion {
     font-size: 35px;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
@@ -93,7 +97,8 @@
     margin: 40px 0 0;
 }
 
-.caja1, .caja2 {
+.caja1,
+.caja2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,15 +108,19 @@
     text-align: left;
     border: 1px solid rgb(233, 233, 233);
     border-radius: 13px;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
-.caja1, .caja2{
+
+.caja1,
+.caja2 {
     width: 360px;
 }
-.caja{
+
+.caja {
     height: 200px;
 }
-.caja2{
+
+.caja2 {
     height: 230px;
 }
 
@@ -130,16 +139,95 @@
     line-height: 1.5;
     font-family: "Source Sans 3", sans-serif;
 }
-.cnt-btn{
+
+.cnt-btn,
+.sectionPerfil {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.btn-one{
+.sectionPerfil{
+    margin: 100px 0;
+}
+
+.btn-one {
     font-family: "Source Sans 3", sans-serif;
     padding: 20px;
     border: none;
     background-color: var(--colorTwo);
     color: white;
     border-radius: 10px;
+}
+
+.cnt-general-perfil {
+    width: 95%;
+    position: relative;
+    padding: 20px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 1rem;
+}
+
+.fotoPerfil {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    right: 126px;
+}
+
+.titlePerfil {
+    margin: 90px 0 105px;
+}
+
+.cnt-text-perfil {
+    margin: 60px 0 30px;
+}
+
+.nombrePersona {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.textPerson,
+.textPerfil {
+    line-height: 1.5;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+}
+.accordion-header{
+    font-family: "Bebas Neue", sans-serif;
+}
+.accordion-body{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.cnt-map{
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 60%;
+    height: 0;
+    border: 1px solid rgb(219, 219, 219);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0);
+}
+.cnt-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.nameUbica{
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Bebas Neue", sans-serif;
+}
+.cnt-ubicacion p {
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
 }
