@@ -76,7 +76,8 @@
 .titleInfo,
 .titleCaja,
 .titlePerfil,
-.titleH2Ubicacion {
+.titleH2Ubicacion,
+.titleForm {
     font-size: 35px;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
@@ -146,7 +147,8 @@
     justify-content: center;
     align-items: center;
 }
-.sectionPerfil{
+
+.sectionPerfil {
     margin: 100px 0;
 }
 
@@ -196,14 +198,16 @@
     text-align: center;
     font-family: "Source Sans 3", sans-serif;
 }
-.accordion-header{
+
+.accordion-header {
     font-family: "Bebas Neue", sans-serif;
 }
-.accordion-body{
+
+.accordion-body {
     font-family: "Source Sans 3", sans-serif;
 }
 
-.cnt-map{
+.cnt-map {
     margin: 10px;
     position: relative;
     overflow: hidden;
@@ -212,6 +216,7 @@
     border: 1px solid rgb(219, 219, 219);
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0);
 }
+
 .cnt-map iframe {
     position: absolute;
     top: 0;
@@ -219,15 +224,150 @@
     width: 100%;
     height: 100%;
 }
-.nameUbica{
+
+.nameUbica {
     font-size: 22px;
     text-align: center;
     line-height: 1.5;
     font-family: "Bebas Neue", sans-serif;
 }
+
 .cnt-ubicacion p {
     line-height: 1.5;
     font-size: 18px;
     text-align: center;
     font-family: "Source Sans 3", sans-serif;
+}
+
+.textTitleForm {
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+form {
+    border: 1px solid rgb(205, 205, 205);
+    padding: 40px 20px 20px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.form-label,
+.titleFormCheck {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.form-check-label {
+    line-height: 1.5;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.cnt-TitleForm {
+    margin: 30px 0;
+}
+
+.invalid-feedback,
+.valid-feedback,
+.btn-primary {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.sectionForm {
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .titleH1 {
+        padding: 0 80px;
+    }
+
+    .titleInfo {
+        padding: 0 100px;
+    }
+
+    .textInfo {
+        padding: 20px 125px 0;
+    }
+
+    .cnt-cajas {
+        gap: 30px;
+        flex-direction: row;
+    }
+
+    .caja {
+        height: 230px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .titleH1 {
+        font-size: 70px;
+        padding: 0px 100px;
+    }
+
+    .titleDate {
+        font-size: 50px;
+        margin: 20px 0;
+    }
+
+    .tiempo p {
+        font-size: 4rem;
+    }
+
+    .etiqueta {
+        font-size: 1rem;
+    }
+
+    .titleInfo,
+    .titlePerfil {
+        font-size: 50px;
+    }
+
+    .textInfo {
+        font-size: 23px;
+    }
+    .sectionGeneralPerfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+    }
+    .cnt-general-perfil{
+        width: 400px;
+    }
+    .cnt-map {
+        width: 80%;
+        margin: auto;
+    }
+    .titleH2Ubicacion{
+        font-size: 50px;
+    }
+    .nameUbica {
+        padding: 0px 267px;
+        font-size: 30px;
+    }
+    .cnt-ubicacion{
+        margin-bottom: 30px;
+    }
+    .titleForm {
+        font-size: 50px;
+    }
+    .textTitleForm{
+        font-size: 25px;
+    }
+    form {
+        font-size: 21px;
+        padding: 50px 40px 30px;
+    }
+
+}
+@media screen and (min-width: 1440px){
+    .bodyGeneral{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        max-width: 1440px;
+    }
 }
