@@ -16,14 +16,14 @@
     font-family: "Source Sans 3", sans-serif;
 }
 
-
 .cnt-general {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
     width: 100%;
-    background-image: url(../img/bannerOne.webp);
+    height: 50vh;
+    background-image: url(../img/banner2.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,10 +32,19 @@
 .titleH1 {
     line-height: 1.1;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     color: white;
     text-shadow: -2px -2px black;
+}
+
+.cnt-estrellas {
+    display: flex;
+    gap: 10px;
+}
+
+.estrellas {
+    width: 50px;
 }
 
 .conteo {
@@ -43,6 +52,7 @@
 }
 
 .titleDate {
+    color: var(--colorTwo);
     font-size: 35px;
     margin: 20px 0;
 }
@@ -69,6 +79,7 @@
     padding: 5px;
     background: #f0f0f0;
     border-radius: 5px;
+    color: var(--colorTwo);
 }
 
 .etiqueta {
@@ -87,6 +98,10 @@
     font-size: 35px;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
+}
+
+.titleInfo {
+    color: var(--colorOne);
 }
 
 .textInfo {
@@ -120,7 +135,7 @@
 
 .caja1,
 .caja2 {
-    width: 360px;
+    width: 392px;
 }
 
 .caja {
@@ -155,7 +170,7 @@
 }
 
 .sectionPerfil {
-    margin: 100px 0;
+    margin: 130px 0;
 }
 
 .btn-one {
@@ -176,12 +191,12 @@
 }
 
 .fotoPerfil {
-    height: 130px;
-    width: 130px;
+    height: 160px;
+    width: 160px;
     border-radius: 50%;
     position: absolute;
-    top: -70px;
-    right: 126px;
+    top: -100px;
+    right: 113px;
 }
 
 .titlePerfil {
@@ -263,6 +278,7 @@ form {
 }
 
 .form-check-label {
+    font-size: 18px;
     line-height: 1.5;
     font-family: "Source Sans 3", sans-serif;
 }
@@ -305,9 +321,8 @@ form {
     }
 
     .cnt-general {
-        height: 100vh;
+        height: 50vh;
     }
-
 }
 
 @media screen and (min-width: 1024px) {
@@ -343,7 +358,6 @@ form {
         justify-content: center;
         align-items: center;
         gap: 40px;
-
     }
 
     .cnt-general-perfil {
@@ -380,6 +394,7 @@ form {
         font-size: 21px;
         padding: 50px 40px 30px;
     }
+
     .cnt-general {
         height: 70vh;
     }
@@ -393,12 +408,21 @@ form {
         padding: 0 24%;
     }
 
+    .titlePerfil {
+        margin: 90px 0 50px;
+    }
+
     .textInfo {
         padding: 30px 24%;
     }
 
     .cnt-cajas {
         margin: 40px 0 50px;
+    }
+
+    .caja1,
+    .caja2 {
+        width: 412px;
     }
 
 }
@@ -411,9 +435,8 @@ form {
         margin: auto;
         max-width: 1440px;
     }
+
     .titleH1 {
         padding: 0px 22%;
     }
-
-
 }
