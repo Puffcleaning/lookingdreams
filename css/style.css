@@ -96,6 +96,7 @@
 .titlePerfil,
 .titleH2Ubicacion,
 .titleForm {
+    color: var(--colorTwo);
     font-size: 35px;
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
@@ -106,6 +107,7 @@
 }
 
 .textInfo {
+    color: var(--colorOne);
     font-family: "Source Sans 3", sans-serif;
     font-size: 18px;
     padding: 20px;
@@ -158,6 +160,7 @@
 }
 
 .caja ol li {
+    color: var(--colorOne);
     font-size: 18px;
     line-height: 1.5;
     font-family: "Source Sans 3", sans-serif;
@@ -209,6 +212,7 @@
 }
 
 .nombrePersona {
+    color: var(--colorTwo);
     text-align: center;
     font-size: 24px;
     font-family: "Bebas Neue", sans-serif;
@@ -216,6 +220,7 @@
 
 .textPerson,
 .textPerfil {
+    color: var(--colorOne);
     line-height: 1.5;
     text-align: center;
     font-family: "Source Sans 3", sans-serif;
@@ -226,6 +231,7 @@
 }
 
 .accordion-body {
+    color: var(--colorOne);
     font-family: "Source Sans 3", sans-serif;
 }
 
@@ -248,6 +254,7 @@
 }
 
 .nameUbica {
+    color: var(--colorOne);
     font-size: 22px;
     text-align: center;
     line-height: 1.5;
@@ -255,6 +262,7 @@
 }
 
 .cnt-ubicacion p {
+    color: var(--colorOne);
     line-height: 1.5;
     font-size: 18px;
     text-align: center;
@@ -262,6 +270,7 @@
 }
 
 .textTitleForm {
+    color: var(--colorOne);
     text-align: center;
     font-family: "Source Sans 3", sans-serif;
 }
@@ -275,10 +284,12 @@ form {
 
 .form-label,
 .titleFormCheck {
+    color: var(--colorOne);
     font-family: "Bebas Neue", sans-serif;
 }
 
 .form-check-label {
+    color: var(--colorOne);
     font-size: 18px;
     line-height: 1.5;
     font-family: "Source Sans 3", sans-serif;
